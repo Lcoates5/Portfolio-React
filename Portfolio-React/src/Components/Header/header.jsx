@@ -3,7 +3,7 @@ import './Header.css';
 function Header(setCurrentPage) {
     return (
         <header>
-        <h1>Title</h1>
+        <h1>Lauren Coates</h1>
         <nav> 
             <button onClick={() => setCurrentPage('About Me')}>About Me</button>
             <button onClick={() => setCurrentPage('Portfolio')}>Portfolio</button>

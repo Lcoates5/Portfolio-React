@@ -4,8 +4,21 @@
     text-align: center;
 }
 
+.footer ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0 0 20px;
+    justify-content: center;
+    display: flex;
+    gap: 20px;
+}
+
+.footer li {
+    display: inline;
+}
+
 .footer p {
-    color: #888;
+    color: #666;
     font-size: 14px;
     margin: 0;
 }
@@ -16,5 +29,5 @@
 }
 
 .footer a:hover {
-    text-decoration: underline;
+    transform: scale(1.1);
 }

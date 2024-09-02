@@ -1,10 +1,13 @@
 import { useState } from 'react';
 import './App.css';
-import AboutMe from './components/AboutMe';
-import Portfolio from './components/Portfolio';
-import Contact from './components/Contact';
-import Resume from './components/Resume';
+// Import the AboutMe, Portfolio, Contact, and Resume "pages"
+import AboutMe from './pages/AboutMe';
+import Portfolio from './pages/Portfolio';
+import Contact from './pages/Contact';
+import Resume from './pages/Resume';
+// Import the Header and Footer components
 import Header from './components/Header'; 
+import Footer from './Components/Footer';
 
 // The App component is the root component of the application. It renders the Header component and the other components based on the current page state.
 function App() {
@@ -25,7 +28,7 @@ function App() {
     <div id="container">
       <Header setCurrentPage={setCurrentPage} />
       {renderPage()}
-      <footer></footer>
+      <Footer />
     </div>
   );
 }
