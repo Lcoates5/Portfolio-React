@@ -8,21 +8,30 @@ header {
   }
   
   header h1 {
-    margin: 0;
+    margin: 10px 20px;
     font-size: 24px; 
     color: #fff; 
+    justify-content: left;
   }
   
+  img {
+    display: flex; 
+    align-items: left; 
+    width: 75px;
+    height: 75px;
+    border-radius: 50%;
+  }
+
   nav {
     display: flex; 
-    gap: 15px; 
+    gap: 10px; 
   }
   
   nav button {
     background: none; 
     border: 1px solid #fff; 
     color: #fff; 
-    padding: 10px 20px; 
+    padding: 10px 25px; 
     font-size: 16px; 
     cursor: pointer; 
     transition: background-color 0.3s, color 0.3s, border 0.3s; 
@@ -35,6 +44,12 @@ header {
   
   nav button:focus {
     outline: none;
+    background-color: #383838;
+    color: #fff;
     border: 2px solid #fff; 
   }
   
+  nav button:active {
+    background-color: #282828; 
+    color: #fff; 
+  }

@@ -25,15 +25,12 @@ p:hover {
 }
 
 .proficiencies {
-    background-color: #222;
+    columns: 2;
+    list-style: none;
     color: #fff;
     padding: 10px;
     margin: 5px 0;
     border-radius: 5px;
     text-align: center;
     transition: background-color 0.3s, ;
-}
-
-.proficiencies:hover {
-    background-color: #444;
 }

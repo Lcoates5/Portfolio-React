@@ -1,4 +1,6 @@
 import "./footer.css";
+import React from "react";
+
 
 function Footer() {
   return (
@@ -6,17 +8,17 @@ function Footer() {
       <ul>
         <li>
           <a href="https://github.com/Lcoates5">
-            <img src="Portfolio-React/src/Images/GitHub-Mark-ea2971cee799.png" alt="GitHub" />
+            <img src="src/Images/GitHub-Mark-ea2971cee799.png" alt="GitHub" />
           </a>
         </li>
         <li>
           <a href="https://www.linkedin.com/in/lauren-coates-801957116/">
-            <img src="Portfolio-React/src/Images/LI-In-Bug.png" alt="LinkedIn" />
+            <img src="src/Images/LI-In-Bug.png" alt="LinkedIn" />
           </a>
         </li>
         <li>
           <a href="https://stackoverflow.com/users/27169609/lauren-coates">
-            <img src="Portfolio-React/src/Images/logo-stackoverflow.png" alt="Stack Overflow" />
+            <img src="src/Images/logo-stackoverflow.png" alt="Stack Overflow" />
           </a>
         </li>
       </ul>

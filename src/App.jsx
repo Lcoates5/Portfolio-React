@@ -1,27 +1,29 @@
 import { useState } from 'react';
 import './App.css';
 // Import the AboutMe, Portfolio, Contact, and Resume "pages" from the pages directory
-import AboutMe from "./pages/AboutMe"; // Adjust path and capitalization
-import Portfolio from "./pages/Portfolio"; // Make sure this path is correct
-import Contact from "./pages/Contact";
-import Resume from "./pages/Resume";
+import AboutMe from "./Pages/AboutMe/aboutMe.jsx"; 
+import Portfolio from "./Pages/Portfolio/portfolio.jsx"; 
+import Contact from "./Pages/Contact/contact.jsx";
+import Resume from "./Pages/Resume/resume.jsx";
 
 // Import the Header and Footer components
-import Header from './components/Header'; 
-import Footer from './Components/Footer';
+import Header from './components/Header/header.jsx'; 
+import Footer from './Components/Footer/footer.jsx';
+
+
 
 // The App component is the root component of the application. It renders the Header component and the other components based on the current page state.
 function App() {
-  const [currentPage, setCurrentPage] = useState('About Me');
+  const [currentPage, setCurrentPage] = useState('AboutMe');
 
   function renderPage() {
-    if (currentPage === 'About Me') {
+    if (currentPage === 'AboutMe') {
       return <AboutMe />;
     } else if (currentPage === 'Portfolio') {
       return <Portfolio />;
     } else if (currentPage === 'Contact') {
       return <Contact />;
-    } else {
+    } else if (currentPage === 'Resume') {
       return <Resume />;
     }
   }
