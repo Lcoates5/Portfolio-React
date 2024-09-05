@@ -4,6 +4,9 @@ import './Header.css';
 function Header({setCurrentPage}) {
     return (
         <header>
+            <div>
+            <img  src="src/Images/Avatar.WEBP" alt="Avatar" id='avatar'/>
+            </div>
         <h1>Lauren Coates</h1>
         <nav> 
             <button onClick={() => setCurrentPage('About Me')}>About Me</button>

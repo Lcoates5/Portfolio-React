@@ -1,0 +1,87 @@
+body {
+    background-color: #000;
+    color: #fff;
+    font-family: 'Arial', sans-serif; 
+    margin: 0;
+    padding: 0;
+}
+
+section {
+    padding: 20px;
+    text-align: center; 
+}
+
+h2 {
+    font-size: 2.5rem;
+    margin-bottom: 40px; 
+    border-bottom: 2px solid #fff;
+    display: inline-block;
+    padding-bottom: 10px;
+}
+
+.portfolio-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); 
+    gap: 30px; 
+    max-width: 1200px; 
+    margin: 0 auto; 
+    padding: 20px;
+}
+
+.portfolio-item1,
+.portfolio-item2,
+.portfolio-item3,
+.portfolio-item4,
+.portfolio-item5,
+.portfolio-item6 {
+    background-color: #1a1a1a; 
+    padding: 20px;
+    border-radius: 10px; 
+    text-align: center; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5); 
+    transition: transform 0.3s ease; 
+}
+
+.portfolio-item1:hover,
+.portfolio-item2:hover,
+.portfolio-item3:hover,
+.portfolio-item4:hover,
+.portfolio-item5:hover,
+.portfolio-item6:hover {
+    transform: scale(1.05); 
+}
+
+.portfolio-item1 img,
+.portfolio-item2 img,
+.portfolio-item3 img,
+.portfolio-item4 img,
+.portfolio-item5 img,
+.portfolio-item6 img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px; 
+    margin-bottom: 15px; 
+}
+
+.portfolio-item1 h3,
+.portfolio-item2 h3,
+.portfolio-item3 h3,
+.portfolio-item4 h3,
+.portfolio-item5 h3,
+.portfolio-item6 h3 {
+    font-size: 1.5rem; 
+    margin: 10px 0;
+    color: #fff; 
+}
+
+.portfolio-item1 p,
+.portfolio-item2 p,
+.portfolio-item3 p,
+.portfolio-item4 p,
+.portfolio-item5 p,
+.portfolio-item6 p {
+    font-size: 0.875rem; 
+    color: #ccc; 
+    word-break: break-word; 
+    margin: 0;
+}

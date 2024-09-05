@@ -1,18 +1,18 @@
 .footer {
     background-color: #000000;
-    padding: 10px 15px;
+    padding: 5px 10px;
     text-align: center;
     list-style: none;
     max-width: 100%;
     margin: 0;
     display: flex;
     flex-direction: column;
-    gap: 10px;
+    gap: 5px;
 }
 
 .footer li {
     display: inline-block;
-    margin: 0 10px;
+    margin: 0 5px;
 }
 
 .footer p {
@@ -29,7 +29,8 @@
 }
 
 .footer a:hover {
-    transform: scale(1.1);
+    transform: scale(1.05);
+    transition: 0.3s;
 }
 
 .divContainer {
@@ -40,10 +41,27 @@
     flex-direction: row;
 }
 
-.stack {
+.divContainer img {
+    width: 30px;
+    height: 30px;
+}
+
+.stack,
+.linkedin {
     background: #ffffff;
+    border-radius: 50%;
+    padding: 5px;
 }
 
 .linkedin {
-    background: #0077b5;
+    display: flex;
+    border-radius: 50%;
+    padding: 5px;
+    overflow: visible;
+}
+
+footer {
+    margin: 0;
+    padding: 0;
+    
 }

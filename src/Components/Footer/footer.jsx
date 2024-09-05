@@ -4,7 +4,7 @@ import React from "react";
 
 function Footer() {
   return (
-    <footer>
+    <footer className="footer">
       <div className='divContainer'>
         <div>
           <a href="https://github.com/Lcoates5">
