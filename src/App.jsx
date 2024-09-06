@@ -7,10 +7,8 @@ import Contact from "./Pages/Contact/contact.jsx";
 import Resume from "./Pages/Resume/resume.jsx";
 
 // Import the Header and Footer components
-import Header from './components/Header/header.jsx'; 
+import Header from './Components/Header/header.jsx'; 
 import Footer from './Components/Footer/footer.jsx';
-
-
 
 // The App component is the root component of the application. It renders the Header component and the other components based on the current page state.
 function App() {
