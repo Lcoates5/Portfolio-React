@@ -1,7 +1,7 @@
 import { useState } from 'react';
 import './header.css';
 
-function Header({setCurrentPage}) {
+function Header({ setCurrentPage }) {
     return (
         <header>
             <div>
