@@ -1,11 +1,12 @@
 import { useState } from 'react';
 import './header.css';
+import PortfolioPic from '../../Images/PortfolioPic.webp';
 
 function Header({ setCurrentPage }) {
     return (
         <header>
             <div>
-            <img  src="src/Images/Avatar.WEBP" alt="Avatar" id='avatar'/>
+            <img  src={PortfolioPic} alt="Avatar" id='avatar'/>
             </div>
         <h1>Lauren Coates</h1>
         <nav> 

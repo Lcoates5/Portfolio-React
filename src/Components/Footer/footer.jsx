@@ -1,4 +1,7 @@
 import "./footer.css";
+import footerImg1 from "../../Images/GitHub-Mark-ea2971cee799.png";
+import footerImg2 from "../../Images/LI-In-Bug.png";
+import footerImg3 from "../../Images/logo-stackoverflow.png";
 
 function Footer() {
   return (
@@ -6,17 +9,17 @@ function Footer() {
       <div className='divContainer'>
         <div>
           <a href="https://github.com/Lcoates5">
-            <img src="src/Images/GitHub-Mark-ea2971cee799.png" alt="GitHub" />
+            <img src={footerImg1} alt="GitHub" />
           </a>
         </div>
         <div className='linkedIn'>
           <a href="https://www.linkedin.com/in/lauren-coates-801957116/">
-            <img src="src/Images/LI-In-Bug.png" alt="LinkedIn" />
+            <img src={footerImg2} alt="LinkedIn" />
           </a>
         </div>
         <div className='stack'>
           <a href="https://stackoverflow.com/users/27169609/lauren-coates">
-            <img src="src/Images/logo-stackoverflow.png" alt="Stack Overflow" />
+            <img src={footerImg3} alt="Stack Overflow" />
           </a>
         </div>
       </div>
