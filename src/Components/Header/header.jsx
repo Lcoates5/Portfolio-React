@@ -1,6 +1,6 @@
-import { useState } from 'react';
+
 import './header.css';
-import PortfolioPic from '../../Images/PortfolioPic.webp';
+import PortfolioPic from '../../Images/Avatar.jpg';
 
 function Header({ setCurrentPage }) {
     return (

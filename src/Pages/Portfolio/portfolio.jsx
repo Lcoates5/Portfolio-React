@@ -1,10 +1,10 @@
 import "./portfolio.css";
-import image1 from "../../Images/GrowZoneTracker.webp";
-import image2 from "../../Images/MarkDownMaster.webp";
+import image1 from "../../Images/GrowZoneTracker.jpg";
+import image2 from "../../Images/MarkDownMaster.jpg";
 import image3 from "../../Images/CLI-Garage.jpg";
-import image4 from "../../Images/WeatherWiz.webp";
-import image5 from "../../Images/EmployeeTracker.WEBP";
-import image6 from "../../Images/1stBlog.webp";
+import image4 from "../../Images/WeatherWiz.jpg";
+import image5 from "../../Images/EmployeeTracker.jpg";
+import image6 from "../../Images/1stBlog.jpg";
 function Portfolio() {
   return (
     <section>
